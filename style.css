@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.form {
+    background-color: #EEEDF1;
+    min-width: 600px;
+    border-radius: 6px;
+    margin-bottom: 50px;
+}
+
+
+.add {
+    background-color: #FF6C2A;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    border-style: none;
+    width: 100px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.input {
+    padding: 10px;
+    min-width: 70%;
+    margin: 20px;
+    border-radius: 6px;
+    border-style: none;
+}
+
+.input:focus {
+    outline-style: none;
+}
+
+
+
+.tasks {
+    background-color: #EEEDF1;
+    min-width: 560px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+
+
+}
+
+.task {
+    background-color: white;
+    width: 90%;
+    position: relative;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+
+}
+
+.done {
+background-color: #fbf0eeb3;}
+.done .del{
+    background-color: aqua;
+    color: #1d422c;
+}
+.del {
+    position: absolute;
+    font-size: 12px;
+    background-color: #ff3d00;
+    color: white;
+    border-radius: 6px;
+    border-style: none;
+    right: 10px;
+    width: 50px;
+    padding: 4px;
+    text-align: center;
+    top: 10px;
+    cursor: pointer;
+}
